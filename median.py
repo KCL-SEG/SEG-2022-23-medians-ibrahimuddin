@@ -12,7 +12,6 @@ while True:
 length_of_list = len(numbers)
 if length_of_list%2!=0:
     middle = int((length_of_list+1)/2)
-    print(middle)
     print(numbers[middle-1])
 else:
     middle = int(length_of_list /2)
