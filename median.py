@@ -9,6 +9,7 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
+numbers = sorted(numbers)
 length_of_list = len(numbers)
 if length_of_list%2!=0:
     middle = int((length_of_list+1)/2)
